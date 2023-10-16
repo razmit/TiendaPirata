@@ -30,6 +30,22 @@ public static class GameClient
             Genre = "FPS",
             Price = 49.99M,
             ReleaseDate = new DateTime(2022, 9, 27)
+        },
+        new Game()
+        {
+            Id = 4,
+            Name = "Frostpunk",
+            Genre = "City builder",
+            Price = 49.99M,
+            ReleaseDate = new DateTime(2017, 9, 12)
+        },
+        new Game()
+        {
+            Id = 5,
+            Name = "Control",
+            Genre = "FPS",
+            Price = 59.99M,
+            ReleaseDate = new DateTime(2020, 6, 30)
         }
     };
 
